@@ -1,0 +1,7 @@
+
+todo list :
+优先级 ：red>yellow>green
+1.场景适配，在一个母机中运行agent程序，监听多个不能服务的日志。（red）done
+2.编写makefile。目标是简化部署流程、运行流程，点单 （yellow）集群（green）
+3.配置从etcd中加载，并且修改配置自动适配无需重启程序。（green）
+4.编写readme 记录使用的流程、方案设计。yellow）

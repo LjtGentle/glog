@@ -1,0 +1,21 @@
+{
+  "kafka_config": {
+    "address": [
+      "127.0.0.1:9092"
+    ],
+    "targets": [
+      {
+        "chan_size": 100000,
+        "topic": "log_test"
+      },
+      {
+        "chan_size": 100000,
+        "topic": "log_test2"
+      }
+    ]
+  },
+  "elastic_config": {
+    "addr": "127.0.0.1:9200",
+    "index": "log_test"
+  }
+}

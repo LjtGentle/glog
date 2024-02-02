@@ -1,0 +1,18 @@
+{
+  "address": [
+    "127.0.0.1:9092"
+  ],
+  "required_ack": -1,
+  "targets": [
+    {
+      "chan_size": 100000,
+      "file_name": "/Users/gentle/go-project/glog/glog-agent/test.log",
+      "topic": "log_test"
+    },
+    {
+      "chan_size": 100000,
+      "file_name": "/Users/gentle/go-project/glog/glog-agent/test2.log",
+      "topic": "log_test2"
+    }
+  ]
+}
